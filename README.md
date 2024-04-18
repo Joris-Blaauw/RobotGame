@@ -59,7 +59,7 @@ List of settings: CameraSmoothingRecursion, PlatformRenderdistanceLeniency, Acto
 - "quit / exit" - force closes the program
 
 
-## Now, some more info about the game's code:
+# Now, some more info about the game's code:
 
 ---
 main.lua runs all the calculations and setup
