@@ -62,21 +62,21 @@ List of settings: CameraSmoothingRecursion, PlatformRenderdistanceLeniency, Acto
 # Now, some more info about the game's code:
 
 ---
-main.lua runs all the calculations and setup
-Fonts contains some fonts
-imports contains importable files. e.g. functions / data structures
-maps contains all the map data. (you can put custom maps here too! just copy an existing one, modify some stuff and load it through a console command! "load <filename>" (filename is exlcuding ".lua"))
-mods contains all mods. (again, you can make custom ones too! copy Template.lua and work it out from there. load it through the in-game console command or by adding the filename excluding ".lua" to the modlist.lua table)
-Textures contain all the game's textures
-Sounds contain all the sounds used in the game
+- main.lua runs all the calculations and setup
+- Fonts contains some fonts
+- imports contains importable files. e.g. functions / data structures
+- maps contains all the map data. (you can put custom maps here too! just copy an existing one, modify some stuff and load it through a console command! "load <filename>" (filename is exlcuding ".lua"))
+- mods contains all mods. (again, you can make custom ones too! copy Template.lua and work it out from there. load it through the in-game console command or by adding the filename excluding ".lua" to the modlist.lua table)
+- Textures contain all the game's textures
+- Sounds contain all the sounds used in the game
 
-imports/player.lua contains the data structure of the player
-imports/other.lua has some miscelaneous functions
-imports/boss.lua contains the data structure for the boss
-imports/DataTypes contains some other data structures for various other things
+- imports/player.lua contains the data structure of the player
+- imports/other.lua has some miscelaneous functions
+- imports/boss.lua contains the data structure for the boss
+- imports/DataTypes contains some other data structures for various other things
 
-imports/DataTypes/EnemyData.lua contains ROM data for all the enemy types
-imports/DataTypes/Objects.lua contains the data structure for all the objects used in map data
+- imports/DataTypes/EnemyData.lua contains ROM data for all the enemy types
+- imports/DataTypes/Objects.lua contains the data structure for all the objects used in map data
 
 
 # Extras:
