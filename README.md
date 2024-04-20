@@ -4,6 +4,8 @@
 I made this game in LOVE2d (lua) for a school assignment. It was supposed to be a simple boss fight, 
 but i got sidetracked and i made it a bit more complicated than probably necessary.
 
+Also, i feel like it should be noted that this game generates log files at C:/Users/<user>/AppData/Roaming/LOVE/RobotGame
+
 # Controls:
 
 ---
